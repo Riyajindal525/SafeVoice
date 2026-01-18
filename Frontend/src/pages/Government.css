@@ -1,0 +1,389 @@
+.government {
+  min-height: 100vh;
+  background-color: #f9fafb;
+  padding: 2rem 0;
+}
+
+.gov-header {
+  text-align: center;
+  padding: 3rem 0 2rem;
+}
+
+.gov-header h1 {
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.gov-header p {
+  color: #6b7280;
+  font-size: 1.1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.info-banner {
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  border-left: 4px solid #0891b2;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.info-banner h3 {
+  color: #0c4a6e;
+  margin-bottom: 0.5rem;
+}
+
+.info-banner p {
+  color: #164e63;
+  line-height: 1.6;
+}
+
+.portals-section {
+  margin-bottom: 3rem;
+}
+
+.portals-section h2 {
+  color: #1f2937;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.portals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.5rem;
+}
+
+.portal-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.portal-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.portal-header {
+  border-bottom: 2px solid #d946a6;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.portal-header h3 {
+  color: #1f2937;
+  font-size: 1.05rem;
+  margin: 0;
+}
+
+.portal-description {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.portal-services {
+  margin-bottom: 1rem;
+}
+
+.portal-services strong {
+  color: #1f2937;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.portal-services ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.portal-services li {
+  color: #4b5563;
+  font-size: 0.85rem;
+  padding: 0.25rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.portal-services li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #10b981;
+  font-weight: bold;
+}
+
+.portal-contact {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.contact-item {
+  margin-bottom: 1rem;
+}
+
+.contact-item strong {
+  color: #1f2937;
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+}
+
+.contact-item p {
+  color: #6b7280;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.btn-small {
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.ncw-section {
+  background: white;
+  padding: 2rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  margin-bottom: 3rem;
+}
+
+.ncw-section h2 {
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.ncw-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+.ncw-text h4 {
+  color: #1f2937;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.ncw-text ul,
+.ncw-text ol {
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-left: 1.5rem;
+}
+
+.ncw-text li {
+  margin-bottom: 0.5rem;
+}
+
+.info-box {
+  background: linear-gradient(135deg, #f0e7ff 0%, #faf3ff 100%);
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  border: 1px solid #e9d5ff;
+}
+
+.info-box h4 {
+  color: #d946a6;
+  margin-bottom: 1rem;
+}
+
+.info-box ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-box li {
+  color: #4b5563;
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.info-box li:before {
+  content: "★";
+  position: absolute;
+  left: 0;
+  color: #d946a6;
+}
+
+.process-section {
+  margin-bottom: 3rem;
+}
+
+.process-section h2 {
+  color: #1f2937;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.steps-container {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.step {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 1.5rem;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.step-circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #d946a6 0%, #be1d8f 100%);
+  color: white;
+  border-radius: 50%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+
+.step-content h4 {
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.step-content p {
+  color: #6b7280;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.rights-section {
+  margin-bottom: 3rem;
+}
+
+.rights-section h2 {
+  color: #1f2937;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.rights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.right-box {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border-left: 4px solid #0891b2;
+}
+
+.right-box h4 {
+  color: #1f2937;
+  margin-bottom: 0.75rem;
+}
+
+.right-box p {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.faq-section {
+  margin-bottom: 3rem;
+}
+
+.faq-section h2 {
+  color: #1f2937;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.faq-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.faq-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.faq-item h4 {
+  color: #d946a6;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.faq-item p {
+  color: #6b7280;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.disclaimer {
+  background: #fef2f2;
+  border: 2px solid #fecaca;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  text-align: center;
+}
+
+.disclaimer h3 {
+  color: #dc2626;
+  margin-bottom: 0.75rem;
+}
+
+.disclaimer p {
+  color: #7f1d1d;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .ncw-content {
+    grid-template-columns: 1fr;
+  }
+
+  .step {
+    grid-template-columns: 60px 1fr;
+  }
+
+  .step-circle {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+  }
+
+  .rights-grid,
+  .faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gov-header h1 {
+    font-size: 1.5rem;
+  }
+}

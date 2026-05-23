@@ -22,7 +22,7 @@ export default function NGOAnalytics() {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    fetch('http://localhost:8080/api/analytics')
+    fetch('https://safevoice-d56i.onrender.com/api/analytics')
       .then(res => res.json())
       .then(data => {
         console.log('Analytics data:', data) // 👈 CHECK THIS

@@ -123,7 +123,7 @@ export default function FileComplaint() {
     setLoading(true);
 
     try {
-      const res = await fetch('http://localhost:8080/api/analytics', {
+      const res = await fetch('https://safevoice-d56i.onrender.com/api/analytics', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ category: issueType })

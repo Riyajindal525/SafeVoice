@@ -15,6 +15,9 @@ app.use(express.json());
 app.use("/api",authRoute );
 app.use('/api', complaintRoutes);
 
+app.get("/",(req,res)=>{
+  res.send("Backend is running live on Render.com");
+})
 mongoose.connect(process.env.MONGO_URI)
    .then(() => console.log("DB Connected"))
   .catch((err) => console.log(err));
